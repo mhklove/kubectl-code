@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: dev-project
-        image: ladbam/development
+        image: micheken20/development
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
